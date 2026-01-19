@@ -1,14 +1,15 @@
  export const skillsData = [
     'Python',
     'Java',
-    'Javascript',
+    'JS',
     'AWS',
-    'Firebase',
     'HTML',
-    'React',
+    'Angular',
     'MongoDB',
     'C',
-    'Pytorch'
+    'Pytorch',
+    'Tensorflow',
+    'Numpy',
 
 ]
 
