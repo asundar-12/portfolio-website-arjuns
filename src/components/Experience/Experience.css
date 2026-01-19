@@ -25,14 +25,40 @@
 .experience-card {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 450px; /* Increase the height of the card */
+    height: 450px;
     padding: 1.5rem;
     border-radius: 20px;
-    margin-bottom: 2rem; /* Add some space between the cards */
+    margin-bottom: 2rem;
     transition: background-color 200ms ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.experience-card:hover {
+    background-color: #f5f5f5;
+}
+
+.experience-card .jobtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.experience-card .description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.experience-card .tools {
+    font-size: 1rem;
+    color: #999;
+    margin-top: 1rem;
 }
 
 .experience-description {

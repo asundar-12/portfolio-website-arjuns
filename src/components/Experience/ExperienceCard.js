@@ -8,7 +8,7 @@ import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
 import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
-
+import './ExperienceCard.css';
 function ExperienceCard({id, company, jobtitle, startYear, endYear, description, tools, location}) {
 
     const { theme } = useContext(ThemeContext);
